@@ -208,7 +208,7 @@ Por exemplo, caso possua os cookies de acesso de um site que é necessário logi
 
 import scrapy
 
-# Cookies de login di site
+# Cookies de login do site
 COOKIES = [{},..., {}]
 
 class LoginSpider(scrapy.Spider):
@@ -223,6 +223,6 @@ class LoginSpider(scrapy.Spider):
         ...
 ```
 
-Outras formas de lidar como cookies como, por exemplo, cada requisição com seu próprio cookie, podem ser feitas usando **cookiejar**, mais detalhes [aqui](https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#module-scrapy.downloadermiddlewares.cookies). 
+Outras formas de lidar com cookies como, por exemplo, cada requisição com seu próprio cookie, podem ser feitas usando **cookiejar**, mais detalhes [aqui](https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#module-scrapy.downloadermiddlewares.cookies). 
 
 Bibliotecas de terceiros permitem **persistência de cookies** e outros recursos, como [scrapy-cookies](https://scrapy-cookies.readthedocs.io/en/latest/intro/overview.html).  
